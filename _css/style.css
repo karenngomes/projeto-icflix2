@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    background-color: #141414;
+}
+.cat-right {
+    top: 11px;
+}
+.cat-right-bottom {
+    margin: -3px;
+    left: 10px;
+    top: 19px;
+}
+.cat-right-bottom label {
+    margin-left: 5px;
+}
+.navbar-brand img {
+	margin: -12px 0px 0px -5px;
+}
+.search input , .search button{
+	background-color: #cd0000;
+	border: none;
+}
+.search button {
+	padding-bottom: 8px;
+    margin-left: -10px;
+}
+.search ::-webkit-input-placeholder {
+	color: black;
+}
+.search span {
+	top: 3px;	
+}
+section {
+	margin-top: 50px;
+}
+.mySlides {
+    display: none
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+.mySlides {
+    padding: 10px;
+    height: 510px;
+    border-radius: 15px;
+}
+#sessao .col-md-2 {
+	padding-left: 14px;
+	margin: 0px -1px;
+}
+#sessao img {
+	width: 210px;
+	height: 300px;
+	transition: all .4s;
+}
+#sessao img:hover {
+	transform: scale(1.1);
+}
+#sessao h2 {
+	margin: 17px 5px 17px 5px;
+    padding: 11px 6px;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 25px;
+    color: #ccc;
+    background-color: #942424;
+    border-radius: 4px;
+}
+footer .rodape {
+	background-color: #cd0000;
+	height: 80px;
+	margin-top: 20px;
+}
+#rodape {
+	padding-top: 10px;
+	color: #FFF;
+}
+footer .list-socials i {
+	font-size: 16px;
+	margin: 3px;
+	color: #FFF;
+}
+footer .list-socials a {
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	text-align: center;
+	
+}
+footer .list-socials li{
+	display: inline-block;
+}

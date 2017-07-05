@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Meu passado me condena - O Filme</title>
+	<link rel="shortcut icon" href="../_imagens/logo-icflix.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../_css/pages.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Cadastro de Categoria</h4>
+				</div>
+				<div class="modal-body">
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<div class="row">
+								<label class="col-sm-3 control-label" for="nome_categoria">Nome da Categoria</label>
+								<div class="col-sm-8 cat-right">
+									<input type="text" class="form-control" id="nome_categoria" placeholder="Nome da nova Categoria" />
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Exibir na tela principal?</label>
+									<div class="col-sm-9 cat-right cat-right-bottom">
+										<input type="radio" name="exibicao" id="sim" checked><label for="sim">Sim</label>
+										<input type="radio" name="exibicao" id="nao"><label for="nao">Não</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">+ Adicionar Categoria</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+				<a class="navbar-brand" href="../index.html">
+	        		<img alt="Brand" src="../_imagens/logo-icflix.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Filmes <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#area_supense">Suspense</a></li>
+							<li><a href="#area_acao">Ação e Aventura</a></li>
+							<li><a href="#area_comedia">Comédia</a></li>
+						</ul>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Configurações <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="admin_movies.html">Gerência de Filmes</a></li>
+							<li>
+								<a href="#" data-toggle="modal" data-target="#myModal">Cadastro de Categorias</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-right search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Pesquise pelo seu filme">
+					</div>
+					<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<section>
+		<div id="body">
+			<div id="display">
+				<figure>
+					<img src="../_imagens/meu-passado-capa.jpg" class="img-thumbnail" width="270px" height="420px">
+				</figure>
+			</div>
+			<div id="description">
+				<div id="title-movie">
+					<h1 style="color: white">Meu passado me condena - O Filme</h1>
+				</div>
+				<div id="buttons">
+					<button class="btn btn-primary" ><a href="https://goo.gl/pLsynU" target="_blank"><span>Assista online</span></a></button>
+				<div id="star">
+					<span class="imdbRatingPlugin" data-user="ur74431243" data-title="tt3034258" data-style="t1"><a href="http://www.imdb.com/title/tt3034258/?ref_=tt_plg_rt"><img alt="Meu Passado Me Condena: O Filme (2013) on IMDb" src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png"></a></span>
+				</div>
+				</div>
+
+				<div id="sinopse">
+					<h3>Sinopse:</h3>
+					<p>Quando Fábio (Fábio Porchat) e Miá (Miá Mello) se encontram, é amor à primeira vista. Eles se casam um mês depois de se conhecerem e decidem viajar à Europa em um cruzeiro em lua de mel. Só que, durante a viagem, eles encontram seus antigos namorados,
+						Beto (Alejandro Claveaux) e Laura (Juliana Didone), que hoje estão juntos e também passam sua lua de mel.</p>
+				</div>
+				<div id="screenshots" class="container ">
+					<div class="row">
+						<h1>Screenshots</h1>
+					</div>
+
+					<div class="row thumbnails">
+						<div class="col-md-4 screenshots">
+							<img src="../_imagens/meu-passado-f1.jpg">
+						</div>
+						<div class="col-md-4 screenshots">
+							<img src="../_imagens/meu-passado-f2.jpg">
+						</div>
+						<div class="col-md-4 screenshots">
+							<img src="../_imagens/meu-passado-f3.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<div>
+		<iframe width="500" height="400" src="https://www.youtube.com/embed/LHAvaPhCcVw" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<footer>
+
+		<div class="container-fluid">
+
+			<div class="row rodape text-center">
+				
+					<div id="rodape">
+						<p>Copyright 2017 &copy by Karen Gomes</p>
+						<ul class="list-unstyled list-socials">
+							<li>
+								<a href="http://facebook.com/gomesskaren" target="_blank"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="http://twitter.com/gomesskaren" target="_blank"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="http://instagram.com/karennayarag" target="_blank"><i class="fa fa-instagram"></i></a>
+							</li>
+						</ul>
+
+						</div>
+				</div>
+
+			</div>
+
+	</footer>
+
+	<script type="text/javascript" src="../lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		(function(d, s, id) {
+			var js, stags = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {
+				return;
+			}
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";
+			stags.parentNode.insertBefore(js, stags);
+		})(document, 'script', 'imdb-rating-api');
+	</script>
+
+</body>
+
+</html>
+	

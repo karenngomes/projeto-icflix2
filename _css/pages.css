@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Acme|Baloo+Bhaina|Palanquin+Dark');
+* {
+    margin: 0px;
+}
+body {
+    background-color: #141414;
+}
+.navbar-brand img {
+    margin: -12px 0px 0px -5px;
+}
+.search input , .search button{
+    background-color: #cd0000;
+    border: none;
+}
+.search button {
+    padding-bottom: 8px;
+    margin-left: -10px;
+}
+.search ::-webkit-input-placeholder {
+    color: black;
+}
+.search span {
+    top: 3px;   
+}
+.cat-right {
+    top: 11px;
+}
+.cat-right-bottom {
+    margin: -3px;
+    left: 10px;
+    top: 19px;
+}
+.cat-right-bottom label {
+    margin-left: 5px;
+}
+section {
+    float: left;
+    margin-bottom: 70px;
+    /*width: 830px;*/
+    /*max-width: 500px;*/
+}
+
+#body {
+    display: inline-flex;
+    margin-top: 94px;
+    margin-left: 40px;
+}
+#description {
+    width: 550px;
+    margin-top: -20px;
+    padding-left: 9px;
+}
+.img-thumbnails {
+    border-radius: 0px;
+}
+figure img {
+    width: 280px;
+}
+#title-movie h1 {
+    color: #cd0000;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    font-size: 27px;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+#buttons {
+    display: flex;
+    margin-left: 4px;
+    margin-top: 13px;
+}
+#buttons button {
+    margin-right: 10px;
+}
+#buttons a{
+    color: #fff;
+    text-decoration: none;
+}
+#sinopse h3 {
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 23px;
+    margin-left: 6px;
+    color: #cd0000;
+}
+#sinopse p {
+    text-align: justify;
+    font-family: 'Acme', sans-serif;
+    color: #c3bbbb;
+}
+#screenshots {
+    background-color: #424242;
+    border-radius: 7px;
+    width: 550px;
+    padding-bottom: 18px;
+    margin-left: -4px;
+}
+#screenshots h1 {
+    font-family: 'Palanquin Dark', sans-serif;
+    color: #fff;
+    margin-top: 5px;
+    font-size: 28px;
+    text-align: center;
+}
+#screenshots .thumbnails{
+    margin-left: -20px;
+}
+.screenshots {
+    margin-right: -4px;
+}
+.screenshots img{
+    width: 170px;
+    height: 136px;
+}
+iframe {
+    float: right;
+    width: 430px;
+    margin-top: 90px;
+    margin-right: 30px;
+}
+footer .rodape {
+    clear: both;
+    background-color: #cd0000;
+    height: 90px;
+}
+#rodape {
+    padding-top: 15px;
+    color: #FFF;
+}
+footer .list-socials i {
+    font-size: 16px;
+    margin: 3px;
+    color: #FFF;
+}
+footer .list-socials a {
+    display: block;
+    border: #9B9B9B 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    
+}
+footer .list-socials li{
+    display: inline-block;
+}
+

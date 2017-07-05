@@ -1,0 +1,77 @@
+.navbar-brand img {
+    margin: -12px 0px 0px -5px;
+}
+
+.search input , .search button{
+    background-color: #cd0000;
+    border: none;
+}
+.search button {
+    padding-bottom: 8px;
+    margin-left: -10px;
+}
+.search ::-webkit-input-placeholder {
+    color: black;
+}
+.search span {
+    top: 3px;   
+}
+.cat-right {
+    top: 11px;
+}
+.cat-right-bottom {
+    margin: -3px;
+    left: 10px;
+    top: 19px;
+}
+.cat-right-bottom label {
+    margin-left: 5px;
+}
+.cadastro {
+    width: 95%;
+    margin-top: 60px;
+}
+footer .rodape {
+    clear: both;
+    background-color: #cd0000;
+    height: 90px;
+    position:absolute;
+    left:0;
+    width: 101.1%;
+    margin-top: 30px;
+}
+#rodape {
+    padding-top: 15px;
+    color: #FFF;
+}
+footer .list-socials i {
+    font-size: 16px;
+    margin: 3px;
+    color: #FFF;
+}
+footer .list-socials a {
+    display: block;
+    border: #9B9B9B 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    
+}
+footer .list-socials li{
+    display: inline-block;
+}
+/*PÁGINA GERÊNCIA DE FILMES */
+#gerencia {
+    margin-top: 15px;
+}
+.new_movie {
+    margin-top: -20px;
+}
+.table {
+    width: 100%;
+}
+#footer {
+    bottom: 0;
+}

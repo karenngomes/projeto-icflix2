@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="_imagens/logo-icflix.png" type="image/x-icon">
+		<title>Erro 404</title>
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="_css/form.css">
+	</head>
+	<body>
+		<!-- Modal Categoria-->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Cadastro de Categoria</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+								<div class="row">
+									<label class="col-sm-3 control-label" for="nome_categoria">Nome da Categoria</label>
+									<div class="col-sm-8 cat-right">
+										<input type="text" class="form-control" id="nome_categoria" placeholder="Nome da nova Categoria" />
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<label class="col-sm-3 control-label">Exibir na tela principal?</label>
+										<div class="col-sm-9 cat-right cat-right-bottom">
+											<input type="radio" name="exibicao" id="sim" checked><label for="sim">Sim</label>
+											<input type="radio" name="exibicao" id="nao"><label for="nao">Não</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">+ Adicionar Categoria</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div><!--Fim Modal Categoria-->
+		<div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel"><!--Modal Excluir-->
+		  	<div class="modal-dialog" role="document">
+		    	<div class="modal-content">
+		      		<div class="modal-header">
+		        		<button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+		        		<h4 class="modal-title" id="modalLabel">Excluir Item</h4>
+		      		</div>
+		      		<div class="modal-body">Deseja realmente excluir este filme?
+		    		</div>
+			      	<div class="modal-footer">
+			        	<button type="button" class="btn btn-primary">Sim</button>
+			 			<button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+			      	</div>
+		    	</div>
+		  	</div>
+		</div><!--Fim Modal Excluir-->
+
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+					<a class="navbar-brand" href="../index.html">
+	        		<img alt="Brand" src="_imagens/logo-icflix.png"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Filmes <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#area_supense">Suspense</a></li>
+								<li><a href="#area_acao">Ação e Aventura</a></li>
+								<li><a href="#area_comedia">Comédia</a></li>
+							</ul>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Configurações <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Gerência de Filmes</a></li>
+								<li>
+									<a href="#" data-toggle="modal" data-target="#myModal">Cadastro de Categorias</a>	
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-right search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Pesquise pelo seu filme">
+						</div>
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container cadastro">
+			<div class="row">
+				<h2 id="gerencia">ERRO 404</h2>
+				<hr>
+			</div>
+		 	<div class="row new_movie">
+		 		<h3>Páginas não encontrada!</h3>
+		        <a href="index.html" class="btn btn-default h2">Página Inicial</a>
+		    </div>
+		</div>
+
+		<footer>
+
+			<div class="container-fluid">
+
+				<div id="footer" class="row rodape text-center">
+					
+						<div id="rodape">
+							<p>Copyright 2017 &copy by Karen Gomes</p>
+							<ul class="list-unstyled list-socials">
+								<li>
+									<a href="http://facebook.com/gomesskaren" target="_blank"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="http://twitter.com/gomesskaren" target="_blank"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="http://instagram.com/karennayarag" target="_blank"><i class="fa fa-instagram"></i></a>
+								</li>
+							</ul>
+
+						</div>
+				</div>
+
+			</div>
+
+		</footer>
+
+		<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+		
+	</body>
+</html>
